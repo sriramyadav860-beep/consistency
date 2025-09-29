@@ -68,3 +68,40 @@ print("Students scoring more than 80:\n")
 for roll, details in students.items():
     if details["marks"] > 80:
         print(f"Roll No: {roll}, Name: {details['name']}, Marks: {details['marks']}")
+# Create a tuple with 5 values
+my_tuple = (10, 20, 30, 40, 50)
+
+# Unpack the tuple into variables
+a, b, c, d, e = my_tuple
+
+# Print each variable
+print("a =", a)
+print("b =", b)
+print("c =", c)
+print("d =", d)
+print("e =", e)
+
+
+# Define two sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+# Union
+print("Union:", set1 | set2)   # or set1.union(set2)
+
+# Intersection
+print("Intersection:", set1 & set2)   # or set1.intersection(set2)
+
+# Difference
+print("Difference (set1 - set2):", set1 - set2)   # or set1.difference(set2)
+print("Difference (set2 - set1):", set2 - set1)
+
+
+# Original list with duplicates
+my_list = [1, 2, 2, 3, 4, 4, 5, 5]
+
+# Convert list to set to remove duplicates
+unique_list = list(set(my_list))
+
+print("Original list:", my_list)
+print("List after removing duplicates:", unique_list)
