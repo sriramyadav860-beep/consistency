@@ -105,3 +105,26 @@ unique_list = list(set(my_list))
 
 print("Original list:", my_list)
 print("List after removing duplicates:", unique_list)
+
+
+str1 = "hello"
+str2 = "world"
+result = str1 + str2
+print(result)
+
+
+text = "abc"
+result = text * 3
+print(result)
+
+
+word = "python"
+first_char = word[0]
+last_char = word[-1]
+print("First:", first_char)
+print("Last:", last_char)
+
+
+text = "programming"
+substring = text[0:6]
+print(substring)
