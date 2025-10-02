@@ -128,3 +128,34 @@ print("Last:", last_char)
 text = "programming"
 substring = text[0:6]
 print(substring)
+
+
+
+
+
+s = "python"
+print(s.startswith("py"))  # True
+print(s.endswith("on"))    # True
+
+
+s = " hello "
+cleaned = s.strip()
+print(cleaned)
+
+
+s = "I like cats"
+new_s = s.replace("cats", "dogs")
+print(new_s)
+
+
+
+s = "geeksforgeeks"
+index = s.find("for")
+print(index)
+
+
+s = "hello world"
+words = s.split()          # ['hello', 'world']
+joined = "-".join(words)   # 'hello-world'
+print(words)
+print(joined)
