@@ -10,3 +10,7 @@ for char in text:
 
 # Print the reversed string
 print("Reversed string:", reversed_text)
+
+
+a="hello world"
+print(a)
