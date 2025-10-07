@@ -14,3 +14,7 @@ print("Reversed string:", reversed_text)
 
 a="hello world"
 print(a)
+
+
+a="sriram"
+print(a)
