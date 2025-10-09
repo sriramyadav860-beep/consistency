@@ -39,3 +39,38 @@ a = input(int())
 b = input(int())
 sum = a+b
 print(sum)
+
+
+x = 10
+name = "Sriram"
+price = 99.5
+ print(x)
+print(name)
+print(price)
+
+age = 25
+student_name = "Priya"
+total_marks = 456
+print(age)
+print(student_name)
+print(total_marks)
+
+a = 25
+b = "Priya"
+c = 456
+
+
+a = b = c = 10
+
+name, age, city = "Rahul", 21, "Delhi"
+
+
+name = "John"
+age = 22
+is_student = True
+
+print("Name:", name)
+print("Age:", age)
+print("Student:", is_student)
+
+
