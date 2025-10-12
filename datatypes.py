@@ -48,3 +48,16 @@ if num % 2 == 0:
     print("Even Number")
 else:
     print("Odd Number")
+
+
+x = 10              # int
+y = 10.5            # float
+z = "Hello"         # string
+b = True            # boolean
+l = [1, 2, 3]       # list
+t = (1, 2, 3)       # tuple
+s = {1, 2, 3}       # set
+d = {"name": "Ram", "age": 21}  # dictionary
+
+print(type(x))
+print(type(z))
