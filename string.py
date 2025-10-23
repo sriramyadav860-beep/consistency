@@ -1,8 +1,8 @@
-a = input("Enter a character: ")
+a = "5"
 
-if a.isalpha():
-    print(a, "is an alphabet.")
-elif a.isdigit():
-    print(a, "is a digit.")
+if 'A' <= a <= 'Z':
+    print("Uppercase")
+elif 'a' <= a <= 'z':
+    print("Lowercase")
 else:
-    print(a, "is a special character.")
+    print("Not alphabet")
