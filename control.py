@@ -117,3 +117,17 @@ elif 'a' <= a <= 'z':
     print("Lowercase")
 else:
     print("Not alphabet")
+
+
+# Program to check if numbers form a Pythagorean triplet
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+# Sort to ensure c is the largest
+a, b, c = sorted([a, b, c])
+
+if a**2 + b**2 == c**2:
+    print("✅ The numbers form a Pythagorean triplet.")
+else:
+    print("❌ The numbers do not form a Pythagorean triplet.")
