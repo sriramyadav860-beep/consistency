@@ -118,16 +118,44 @@ elif 'a' <= a <= 'z':
 else:
     print("Not alphabet")
 
+#Input a date (day, month, year) and check if it is valid.
+a = 21
+b = 6
+c = 2005
 
-# Program to check if numbers form a Pythagorean triplet
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = int(input("Enter third number: "))
-
-# Sort to ensure c is the largest
-a, b, c = sorted([a, b, c])
-
-if a**2 + b**2 == c**2:
-    print("✅ The numbers form a Pythagorean triplet.")
+if a > 0 and a < 31 and b > 0 and b < 13 and c > 1600 and  c < 9999:
+    print(a,b,c)
 else:
-    print("❌ The numbers do not form a Pythagorean triplet.")
+    print("invaild")
+
+
+#Input three numbers and check if they can form a Pythagorean triplet
+a = 3
+b = 4
+c = 5
+if a*a + b*b == c*c:
+    print("true")
+else:
+    print("false")
+
+
+#Input time (hours, minutes) and check if it is a valid time.
+
+a = 5
+b = 59
+
+if a >= 1 and a <= 12 and b >= 0 and b <= 60:
+    print(a,b , "valid")
+else:
+    print("in valid")
+
+
+
+    
+#Input a year and print the century it belongs to.
+
+year = 9000
+
+century = (year - 1) // 100 + 1
+
+print(f"{century} century.")
