@@ -159,3 +159,17 @@ year = 9000
 century = (year - 1) // 100 + 1
 
 print(f"{century} century.")
+
+
+# Input ages of three people
+age1 = int(input("Enter age of first person: "))
+age2 = int(input("Enter age of second person: "))
+age3 = int(input("Enter age of third person: "))
+
+# Find the oldest and youngest
+oldest = max(age1, age2, age3)
+youngest = min(age1, age2, age3)
+
+# Print results
+print("The oldest age is:", oldest)
+print("The youngest age is:", youngest)
