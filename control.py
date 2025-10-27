@@ -161,15 +161,39 @@ century = (year - 1) // 100 + 1
 print(f"{century} century.")
 
 
-# Input ages of three people
-age1 = int(input("Enter age of first person: "))
-age2 = int(input("Enter age of second person: "))
-age3 = int(input("Enter age of third person: "))
+# Input a day number (1–7) and print the day of the week
 
-# Find the oldest and youngest
-oldest = max(age1, age2, age3)
-youngest = min(age1, age2, age3)
+day = 5
 
-# Print results
-print("The oldest age is:", oldest)
-print("The youngest age is:", youngest)
+if day == 1:
+    print("Monday")
+elif day == 2:
+    print("Tuesday")
+elif day == 3:
+    print("Wednesday")
+elif day == 4:
+    print("Thursday")
+elif day == 5:
+    print("Friday")
+elif day == 6:
+    print("Saturday")
+elif day == 7:
+    print("Sunday")
+else:
+    print("Invalid day ")
+
+
+
+
+# Input a month number (1–12) and print the number of days in that month
+
+month = int(input("Enter month number (1–12): "))
+
+if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12:
+    print("31 days")
+elif month == 4 or month == 6 or month == 9 or month == 11:
+    print("30 days")
+elif month == 2:
+    print("28 or 29 days (February)")
+else:
+    print("Invalid month number! Please enter a number between 1 and 12.")
