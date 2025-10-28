@@ -197,3 +197,15 @@ elif month == 2:
     print("28 or 29 days (February)")
 else:
     print("Invalid month number! Please enter a number between 1 and 12.")
+
+
+# hex_check_strict.py
+ch = input("Enter a single character: ").strip()
+
+if len(ch) != 1:
+    print("Please enter exactly one character.")
+else:
+    if ch in "0123456789ABCDEF":
+        print(f"'{ch}' is a hexadecimal digit (0-9, A-F).")
+    else:
+        print(f"'{ch}' is NOT a hexadecimal digit (0-9, A-F).")
