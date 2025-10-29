@@ -209,3 +209,28 @@ else:
         print(f"'{ch}' is a hexadecimal digit (0-9, A-F).")
     else:
         print(f"'{ch}' is NOT a hexadecimal digit (0-9, A-F).")
+
+
+if num > 0:
+    print("The number is positive")
+elif num < 0:
+    print("The number is negative")
+else:
+    print("The number is zero")
+
+num = 8
+
+if num % 2 == 0:
+    print("The number is even")
+else:
+    print("The number is odd")
+
+a = 8
+b = 5
+
+if a > b:
+    print(a, "is greater")
+elif b > a:
+    print(b, "is greater")
+else:
+    print("Both numbers are equal")
