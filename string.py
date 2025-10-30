@@ -1,20 +1,10 @@
-# Input a day number (1–7) and print the day of the week
 
-day = 5
 
-if day == 1:
-    print("Monday")
-elif day == 2:
-    print("Tuesday")
-elif day == 3:
-    print("Wednesday")
-elif day == 4:
-    print("Thursday")
-elif day == 5:
-    print("Friday")
-elif day == 6:
-    print("Saturday")
-elif day == 7:
-    print("Sunday")
-else:
-    print("Invalid day ")
+
+units = 220
+if units <= 100:
+    print( 5*units)
+elif units >= 100 and units <= 199:
+    print(8*units)
+elif units  >= 200:
+    print(10*units)

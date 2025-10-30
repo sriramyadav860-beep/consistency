@@ -234,3 +234,53 @@ elif b > a:
     print(b, "is greater")
 else:
     print("Both numbers are equal")
+
+#Electricity Bill Calculator
+#Input units consumed:
+#First 100 units → ₹5 per unit
+#Next 100 units → ₹8 per unit
+#Above 200 units → ₹10 per uni
+units = 100
+if units <= 100:
+    print( 5*units)
+elif units >= 100 and units <= 199:
+    print(8*units)
+elif units  >= 200:
+    print(10*units)
+
+#Discount Calculator
+#Input the total shopping amount:
+#If amount > 5000 → 20% discount If amount > 2000 → 10% discount Otherwise → no discountamount = 2000
+amount = 5000
+
+if amount >= 2000 and amount <5000:
+    print("20% discount")
+elif amount >= 5000:
+    print("30% discount")
+else:
+    print(amount)
+
+
+
+amount = 9000
+
+if amount >= 2000 and amount <5000:
+    print( amount - amount * 0.20 )
+elif amount >= 5000:
+    print(amount - amount * 0.30)
+else:
+    print(amount)
+
+
+#tempernatur
+temp = 5
+if temp <= 0:
+    print("frezz")
+elif temp >= 1 and temp <=20:
+    print("cool")
+elif temp >= 21 and temp <=35:
+    print("warm")
+elif temp > 35:
+    print("hot")
+
+
