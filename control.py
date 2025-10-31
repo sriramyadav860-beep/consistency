@@ -283,4 +283,16 @@ elif temp >= 21 and temp <=35:
 elif temp > 35:
     print("hot")
 
+# hex_check.py
+ch = input("Enter a single character: ").strip()
+
+if len(ch) != 1:
+    print("Please enter exactly one character.")
+else:
+    # Accept lowercase or uppercase
+    c = ch.upper()
+    if '0' <= c <= '9' or 'A' <= c <= 'F':
+        print(f"'{ch}' is a hexadecimal digit.")
+    else:
+        print(f"'{ch}' is NOT a hexadecimal digit.")
 
