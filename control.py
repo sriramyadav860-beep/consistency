@@ -296,3 +296,35 @@ else:
     else:
         print(f"'{ch}' is NOT a hexadecimal digit.")
 
+# time_compare.py
+
+def read_time(prompt):
+    s = input(prompt).strip()
+    # Accept formats like "H M" or "HH:MM"
+    if ':' in s:
+        parts = s.split(':')
+    else:
+        parts = s.split()
+    if len(parts) != 2:
+        raise ValueError("Enter time as 'HH:MM' or 'H M'")
+    h = int(parts[0])
+    m = int(parts[1])
+    if not (0 <= h <= 23 and 0 <= m <= 59):
+        raise ValueError("Hour must be 0-23 and minute 0-59")
+    return h, m
+
+try:
+    h1, m1 = read_time("Enter first time (HH:MM or H M): ")
+    h2, m2 = read_time("Enter second time (HH:MM or H M): ")
+
+    t1 = h1 * 60 + m1
+    t2 = h2 * 60 + m2
+
+    if t1 < t2:
+        print(f"{h1:02d}:{m1:02d} is earlier than {h2:02d}:{m2:02d}.")
+    elif t1 > t2:
+        print(f"{h2:02d}:{m2:02d} is earlier than {h1:02d}:{m1:02d}.")
+    else:
+        print(f"{h1:02d}:{m1:02d} and {h2:02d}:{m2:02d} are the same time.")
+except ValueError as e:
+    print("Invalid input:", e)
