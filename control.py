@@ -328,3 +328,10 @@ try:
         print(f"{h1:02d}:{m1:02d} and {h2:02d}:{m2:02d} are the same time.")
 except ValueError as e:
     print("Invalid input:", e)
+
+num = 8
+
+if num % 2 == 0:
+    print("The number is even")
+else:
+    print("The number is odd")
