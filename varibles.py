@@ -44,7 +44,7 @@ print(sum)
 x = 10
 name = "Sriram"
 price = 99.5
- print(x)
+print(x)
 print(name)
 print(price)
 
