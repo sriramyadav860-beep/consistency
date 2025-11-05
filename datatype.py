@@ -1,3 +1,3 @@
-s = "programming"
-b = s[5]
-print("programming:",b)
+s = "hello"
+a = s[::-1]
+print(a)
