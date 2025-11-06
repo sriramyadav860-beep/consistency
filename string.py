@@ -23,3 +23,6 @@ print(a)
 s = "PyThoN"
 print(s.lower())  # all lowercase
 print(s.upper())  # all uppercase
+
+s="Python"
+print(len(s))
