@@ -33,3 +33,7 @@ print(str1 + str2)
 
 text = input()
 print(len(text))
+
+s = input()
+print(s[0])
+print(s[-1])
