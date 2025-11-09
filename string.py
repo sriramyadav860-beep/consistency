@@ -37,3 +37,6 @@ print(len(text))
 s = input()
 print(s[0])
 print(s[-1])
+
+s = input()
+print(s[::-1])
