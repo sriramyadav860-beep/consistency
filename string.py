@@ -49,3 +49,7 @@ for ch in s:
         count += 1
 print(count)
 
+s = "Python"
+print("thon" in s)
+
+
