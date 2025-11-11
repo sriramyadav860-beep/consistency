@@ -52,4 +52,7 @@ print(count)
 s = "Python"
 print("thon" in s)
 
+s = "Python"
+print(s.replace("P", "J"))
+
 
