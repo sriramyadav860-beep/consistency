@@ -59,4 +59,7 @@ s = "Python"
 for ch in s:
     print(ch)
 
+s = "Python"
+print(s + " Programming")
+
 
