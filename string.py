@@ -62,4 +62,7 @@ for ch in s:
 s = "Python"
 print(s + " Programming")
 
+s = "Python"
+print(s[1], s[-2])
+
 
