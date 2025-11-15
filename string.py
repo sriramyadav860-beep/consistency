@@ -68,5 +68,8 @@ print(s[1], s[-2])
 s = "Python"
 print(s[:3])
 
+s = "Python"
+print(s[-3:])
+
 
 
