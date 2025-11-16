@@ -71,5 +71,8 @@ print(s[:3])
 s = "Python"
 print(s[-3:])
 
+s = "Python"
+print(s[1:])
+
 
 
