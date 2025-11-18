@@ -83,4 +83,7 @@ print(s[::2])
 s = "Python"
 print(s.startswith("Py"))
 
+s = "Python"
+print(s.endswith("hon"))
+
 
