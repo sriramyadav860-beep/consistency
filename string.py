@@ -80,5 +80,7 @@ print(s[:-1])
 s = "Python"
 print(s[::2])
 
+s = "Python"
+print(s.startswith("Py"))
 
 
