@@ -13,9 +13,9 @@ print(type(10.5))
 print(type("Python"))
 print(type(True))
 
-x = 10.9
+x=10.9
 print(int(x))
-s = "100"
+s="100"
 print(int(s))
-n = 50
+n=50
 print(str(n))
