@@ -19,3 +19,11 @@ s="100"
 print(int(s))
 n=50
 print(str(n))
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+print("Sum =", a + b)
+print("Difference =", a - b)
+print("Product =", a * b)
+print("Remainder =", a % b)
+print("Power =", a ** b)
