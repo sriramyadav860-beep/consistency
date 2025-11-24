@@ -20,8 +20,8 @@ print(int(s))
 n=50
 print(str(n))
 
-a = int(input("Enter a: "))
-b = int(input("Enter b: "))
+a=int(input())
+b=int(input())
 print("Sum =", a + b)
 print("Difference =", a - b)
 print("Product =", a * b)
