@@ -28,8 +28,8 @@ print(a*b)
 print(a%b)
 print(a**b)
 
-a = int(input("Enter first: "))
-b = int(input("Enter second: "))
+a = int(input())
+b = int(input())
 if a > b:
     print("a is larger")
 elif b > a:
