@@ -27,3 +27,13 @@ print(a-b)
 print(a*b)
 print(a%b)
 print(a**b)
+
+a = int(input("Enter first: "))
+b = int(input("Enter second: "))
+if a > b:
+    print("a is larger")
+elif b > a:
+    print("b is larger")
+else:
+    print("Both equal")
+
