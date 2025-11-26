@@ -37,3 +37,11 @@ elif b > a:
 else:
     print("Both equal")
 
+a = int(input("Enter number: "))
+b = int(input("Enter number: "))
+c = int(input("Enter number: "))
+if a > 0 and b > 0 and c > 0:
+    print("All positive")
+elif a < 0 or b < 0 or c < 0:
+    print("At least one negative")
+
