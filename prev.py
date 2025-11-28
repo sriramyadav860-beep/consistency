@@ -37,11 +37,11 @@ elif b > a:
 else:
     print("Both equal")
 
-a = int(input())
-b = int(input())
-c = int(input())
-if a > 0 and b > 0 and c > 0:
+a=int(input())
+b=int(input())
+c=int(input())
+if a>0 and b>0 and c>0:
     print("All positive")
-elif a < 0 or b < 0 or c < 0:
+elif a<0 or b<0 or c<0:
     print("At least one negative")
 
