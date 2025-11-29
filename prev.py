@@ -45,12 +45,12 @@ if a>0 and b>0 and c>0:
 elif a<0 or b<0 or c<0:
     print("At least one negative")
 
-amount = float(input("Enter amount: "))
-if amount >= 5000:
-    final = amount - (amount * 0.20)
-elif amount >= 2000:
-    final = amount - (amount * 0.10)
+amount=float(input())
+if amount>=5000:
+    final=amount-(amount*0.20)
+elif amount>=2000:
+    final=amount-(amount*0.10)
 else:
-    final = amount
-print("Final amount:", final)
+    final=amount
+print(final)
 
