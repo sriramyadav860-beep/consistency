@@ -54,3 +54,7 @@ else:
     final=amount
 print(final)
 
+s = "python"
+print(s[::-1])
+
+
