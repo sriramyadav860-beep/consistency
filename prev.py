@@ -57,12 +57,12 @@ print(final)
 s = "python"
 print(s[::-1])
 
-s = input("Enter text: ")
+s = input()
 vowels = "aeiouAEIOU"
 count = 0
 for ch in s:
     if ch in vowels:
         count += 1
-print("Vowels:", count)
+print(count)
 
 
